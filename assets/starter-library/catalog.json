@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "name": "Alongside essentials",
+      "expected": 12,
+      "saved": 12
+    }
+  ],
+  "assets": [
+    {
+      "id": "c0bb6c146d1c42af6506",
+      "name": "Browser client",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/c0bb6c146d1c42af6506.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "abdbe4c9580fc1ca6643",
+      "name": "Web server application",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/abdbe4c9580fc1ca6643.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "8a0aad22f44bdbf1f0fe",
+      "name": "Database SQL storage",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/8a0aad22f44bdbf1f0fe.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "86af2264cff0aa2fbdcf",
+      "name": "Cache memory",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/86af2264cff0aa2fbdcf.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "ce3f9f981e2d4696337f",
+      "name": "Queue messages",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/ce3f9f981e2d4696337f.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "dfc8851fb3ca81fa1e97",
+      "name": "Cloud service",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/dfc8851fb3ca81fa1e97.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "3fc12703c61a71087586",
+      "name": "API gateway",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/3fc12703c61a71087586.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "f2c10d9054cf289b076d",
+      "name": "User learner",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/f2c10d9054cf289b076d.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "6b84659e89b61aa37298",
+      "name": "Document file",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/6b84659e89b61aa37298.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "ab1be21233779add8d0e",
+      "name": "Code repository",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/ab1be21233779add8d0e.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "8be5609efaa850a76c7c",
+      "name": "Neural network language model",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/8be5609efaa850a76c7c.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    },
+    {
+      "id": "85ed0cf2b2f02265b36b",
+      "name": "Identity authentication lock",
+      "pack": "Alongside essentials",
+      "group": "Architecture",
+      "src": "/library/85ed0cf2b2f02265b36b.svg",
+      "format": "svg",
+      "extraction": "original-svg",
+      "sourceUrl": "https://github.com/SinghCoder/alongside",
+      "archived": false
+    }
+  ]
+}

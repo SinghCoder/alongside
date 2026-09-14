@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root { font-family: 'Geist', 'Avenir Next', system-ui, sans-serif; }
+body { margin: 0; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .45; }
+button:focus-visible, a:focus-visible { outline: 2px solid #31775c; outline-offset: 3px; }
+button:active:not(:disabled) { transform: translateY(1px); }
+
+.excalidraw {
+  --color-primary: #286749;
+  --color-primary-darker: #21583e;
+  --color-primary-light: #e5eee3;
+  --color-primary-light-darker: #d3e4d0;
+  --color-surface-primary-container: #e5eee3;
+}
+
+@layer components {
+  .control {
+    @apply flex items-center justify-center gap-1.5 rounded-lg border border-[#dce2d7] bg-white px-3 py-2 text-xs font-medium text-[#61715f] transition-colors hover:bg-[#f1f4ed] aria-pressed:bg-[#e5eee3];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

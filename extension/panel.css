@@ -1,0 +1,3 @@
+html,body{height:100%;margin:0;font:13px system-ui;color:#243447;background:#f7f8f5}body{display:flex;flex-direction:column}header{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:12px;border-bottom:1px solid #dfe5da}label{display:flex;gap:6px;align-items:center}input{width:180px}button,input{padding:7px;border:1px solid #ccd4ca;border-radius:6px;background:white}button{cursor:pointer}#status{padding:0 12px}iframe{width:100%;border:0;flex:1;min-height:0}
+
+html{overflow:hidden}[aria-label="Panel zoom"]{display:flex;gap:4px;margin-left:auto}#zoom-reset{min-width:54px}

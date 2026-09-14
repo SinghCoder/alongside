@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Alongside \u2014 page learning partner",
+  "version": "0.2.0",
+  "description": "Explain the selected page with a shared whiteboard.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "sidePanel",
+    "debugger"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "https://alongside.184.73.112.43.sslip.io/*"
+  ],
+  "action": {
+    "default_title": "Learn with Alongside"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://127.0.0.1/*",
+        "https://alongside.184.73.112.43.sslip.io/*"
+      ],
+      "js": [
+        "bridge.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src http://127.0.0.1:* https://alongside.184.73.112.43.sslip.io"
+  }
+}
