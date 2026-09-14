@@ -1,5 +1,9 @@
 # Alongside
 
+https://github.com/user-attachments/assets/6b7732eb-d487-43de-8bcb-d354d6768325
+
+Project Link: https://devpost.com/software/alongside-o0hckl
+
 A learning partner that draws with you beside the page you are reading.
 
 Ask about a YouTube lecture, GitHub pull request, or any topic. Alongside builds
